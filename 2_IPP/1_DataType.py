@@ -69,3 +69,19 @@ print(f"5시간에 {(wage * 5 * exchange_rate):.1f}원 벌었습니다.")
 
 ##########  06. Boolean ##########
 # skipped
+
+
+##########  06. Boolean ##########
+print(type(3))       # <class 'int'>
+print(type(3.0))     # <class 'float'>
+print(type("True"))  # <class 'str'>
+print(type(True))    # <class 'bool'>
+
+def hello(self, parameter_list):
+    print("hello")
+print(type(hello))   # <class 'function'>
+print(type(print))   # <class 'builtin_function_or_method'>
+
+
+##########  Boolean 퀴즈 I ##########
+print(((12 >= 10 and not 3 > 4) or 3 ** 2 != 9))    # True
