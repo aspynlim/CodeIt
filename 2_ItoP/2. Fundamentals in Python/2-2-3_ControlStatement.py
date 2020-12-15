@@ -106,3 +106,24 @@ if APT_PRICE_2016 > award_money:
     print(f"{int(APT_PRICE_2016 - award_money)}원 차이로 미란 아주머니 말씀이 맞습니다.")
 else:
     print(f"{int(award_money - APT_PRICE_2016)}원 차이로 동일 아저씨 말씀이 맞습니다.")
+
+
+########## 05. Tips : Break ##########
+i = 100
+
+while True:
+    if i % 23 == 0:
+        break
+    i += 1
+
+print(i)
+
+
+########## 05. Tips : Continue ##########
+i = 0
+
+while i <= 10:
+    i += 1
+    if i % 2 == 1:
+        continue
+    print(i)
