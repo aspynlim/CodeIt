@@ -1,11 +1,12 @@
-# def sum_digit(num):
-#     # 숫자 123 => 1, 2, 3 으로 나눔 (문자로 바꾼 다음 다시 숫자로)
-#     # 합산한 숫자 리턴
-#     return num
+def sum_digit(num):
+    num = str(num)
+    temp = 0
+    for digit in num:
+        temp += int(digit)
+    return temp
 
-# # sum_digit(1) ~ sum_digit(1000) 합산
-# for i in range(1001):
-#     sum = 0
-#     sum += sum_digit(i)
-
-# print(sum)
+# sum_digit(1) ~ sum_digit(1000) 합산
+sum = 0
+for i in range(1, 1001):
+    sum += sum_digit(i)
+print(sum)  # 13501
