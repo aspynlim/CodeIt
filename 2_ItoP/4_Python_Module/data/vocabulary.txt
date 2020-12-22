@@ -1,0 +1,7 @@
+joy: 기쁨
+banana: 바나나
+cell phone: 휴대폰
+wonderful: 환상적인
+black: 검정
+stressful: 스트레스 받는
+tired: 피곤한
